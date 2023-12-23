@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Calculator.css */
+.btn-number {
+  background-color: #4caf50;
+}
+
+.btn-operator {
+  background-color: #ff9800;
+}
+
+.btn-equal {
+  background-color: #f44336;
+}
+
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+/* Additional styling can be adjusted based on your preferences */
+
+/* Calculator.css */
+
+.btn-custom {
+  background-color:#686b6b; /* Custom background color */
+  color: white; /* Custom text color */
+}
+
+.btn-equal {
+  background-color: #FF9800; /* Custom background color */
+  color: white; /* Custom text color */
+}
+
+.btn-clear {
+  background-color: #F44336; /* Custom background color */
+  color: white; /* Custom text color */
+}
+
+/* Add more custom styles as needed */
+/* Assuming you have these classes defined in your CSS file */
+.btn {
+  border-radius: 50px; /* Adjust the value as needed */
+  /* Other button styles */
+}
+
+.btn-rounded {
+  border-radius: 50%; /* Adjust the value as needed to control the roundness */
+}
