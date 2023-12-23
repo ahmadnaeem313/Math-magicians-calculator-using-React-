@@ -19,14 +19,14 @@ The Math Magician component is a calculator that allows users to perform basic a
 To use the Joke component, you'll need to obtain an API key from [Joke API Ninjas](https://api.api-ninjas.com/). Once you have the API key, set it in the Joke component:
 
 ## Project Structure
-
-Components
+src/Components
 - NavBar.jsx
 - Calculator.jsx
 - CalculatorBtn.jsx
 - CalculatorDisplay.jsx
 - Joke.js
-/App.js
+
+/App.js, App.css, index.css
 
 
 
